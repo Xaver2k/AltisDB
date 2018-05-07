@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- Name Label -->
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/player_name"
+        android:textSize="17sp" />
+    
+        <!-- Player ID Label -->
+
+    <TextView
+        android:id="@+id/textPlayerid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/player_id"
+        android:textSize="17sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:orientation="horizontal" >
+
+        <!-- Coplevel Label -->
+
+        <TextView
+            android:id="@+id/textCoplvl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/coplevel"
+            android:textSize="17sp" />
+        
+        <!-- Mediclevel Label -->
+
+        <TextView
+            android:id="@+id/textMediclvl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/mediclevel"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <!-- Input Coplevel -->
+
+        <EditText
+            android:id="@+id/inputCoplvl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:singleLine="true"  />
+        
+        <!-- Input Mediclevel -->
+
+        <EditText
+            android:id="@+id/inputMediclvl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:singleLine="true"  />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:orientation="horizontal" >
+
+        <!-- Donatorlevel Label -->
+
+        <TextView
+            android:id="@+id/textDonatorlvl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/donatorlevel"
+            android:textSize="17sp" />
+        
+        <!-- Adminlevel Label -->
+
+        <TextView
+            android:id="@+id/textAdminlvl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/adminlevel"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+   	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <!-- Input Donatorlevel -->
+        
+        <EditText
+            android:id="@+id/inputDonatorlvl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:singleLine="true" />
+        
+        <!-- Input Adminlevel -->
+
+        <EditText
+            android:id="@+id/inputAdminlvl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:singleLine="true"  />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:orientation="horizontal" >
+
+        <!-- Bankacc Label -->
+
+        <TextView
+            android:id="@+id/textBankacc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/bankaccount"
+            android:textSize="17sp" />
+        
+        <!-- Cash Label -->
+
+        <TextView
+            android:id="@+id/textCash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/cash"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <!-- Input Bankacc -->
+
+        <EditText
+            android:id="@+id/inputBankacc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:gravity="center"
+            android:singleLine="true" />
+        
+        <!-- Input Cash -->
+
+        <EditText
+            android:id="@+id/inputCash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:gravity="center"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:orientation="horizontal" >
+
+        <!-- Button Save -->
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/save_data" />
+        
+        <!-- Button Cancel -->
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel" />
+        
+    </LinearLayout>
+</LinearLayout>

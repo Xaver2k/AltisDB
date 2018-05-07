@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Altis DB</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="coplevel">Coplevel</string>
+    <string name="player_name">Player Name</string>
+    <string name="player_id">Player ID</string>
+    <string name="mediclevel">Mediclevel</string>
+    <string name="donatorlevel">Donatorlevel</string>
+    <string name="adminlevel">Adminlevel</string>
+    <string name="bankaccount">Bankaccount</string>
+    <string name="cash">Cash</string>
+    <string name="save_data">Save Data</string>
+    <string name="cancel">Cancel</string>
+    <string name="database_server_ip">Database Server IP</string>
+    <string name="_192_168_0_1_3306_arma3life">192.168.0.1:3306/arma3life</string>
+    <string name="database_user">Database User</string>
+    <string name="root">Pls don´t use root</string>
+    <string name="database_user_password">Database User Password</string>
+    <string name="_">●●●●●●●●</string>
+    <string name="_view_players_">-- View Players --</string>
+    <string name="nicht_benutzen">Nicht benutzen</string>
+    <string name="test">Test</string>
+    <string name="prompt_adminlevel">Choose Adminlevel</string>
+    <string name="prompt_donatorlevel">Choose Donatorlevel</string>
+    <string name="prompt_coplevel">Choose Coplevel</string>
+    <string name="prompt_mediclevel">Choose Mediclevel</string>
+
+    <string-array name="coplvl_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="mediclvl_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="adminlvl_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="donatorlvl_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="web_donate">https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif</string>
+
+    <string name="paypal_donation_button">Paypal donation Button</string>
+</resources>
